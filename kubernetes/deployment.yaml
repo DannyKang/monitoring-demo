@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-monitoring-demo
-        image: dtlabs/spring-boot-monitoring-demo:latest
+        image: yunsangjun/spring-boot-monitoring-demo:latest
         ports:
         - containerPort: 8080
           name: tomcat
